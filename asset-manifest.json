@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ddiaz-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/ddiaz-portfolio/static/js/main.bae86966.js",
-    "static/js/787.921a7930.chunk.js": "/ddiaz-portfolio/static/js/787.921a7930.chunk.js",
-    "static/media/logo.svg": "/ddiaz-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ddiaz-portfolio/index.html",
-    "main.073c9b0a.css.map": "/ddiaz-portfolio/static/css/main.073c9b0a.css.map",
-    "main.bae86966.js.map": "/ddiaz-portfolio/static/js/main.bae86966.js.map",
-    "787.921a7930.chunk.js.map": "/ddiaz-portfolio/static/js/787.921a7930.chunk.js.map"
+    "main.css": "/DDiaz-Portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/DDiaz-Portfolio/static/js/main.b4209c2b.js",
+    "static/js/787.921a7930.chunk.js": "/DDiaz-Portfolio/static/js/787.921a7930.chunk.js",
+    "static/media/logo.svg": "/DDiaz-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DDiaz-Portfolio/index.html",
+    "main.073c9b0a.css.map": "/DDiaz-Portfolio/static/css/main.073c9b0a.css.map",
+    "main.b4209c2b.js.map": "/DDiaz-Portfolio/static/js/main.b4209c2b.js.map",
+    "787.921a7930.chunk.js.map": "/DDiaz-Portfolio/static/js/787.921a7930.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bae86966.js"
+    "static/js/main.b4209c2b.js"
   ]
 }
