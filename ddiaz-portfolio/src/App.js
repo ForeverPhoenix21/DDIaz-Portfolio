@@ -1,15 +1,15 @@
-import './App.css';
+
 import { Routes, Route } from "react-router-dom";
-import NavBar from './components/layout/navigation/navBar';
-import HeroBanner from './components/layout/landingPage/heroBanner';
+import Navbar from "./components/Navbar";
+import './App.css'
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Navbar />
       <Routes>
-        <Route path = "/" element = {<HeroBanner/>} ></Route>
+        <Route></Route>
       </Routes>
     </div>
   );
