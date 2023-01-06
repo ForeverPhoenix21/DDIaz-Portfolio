@@ -1,6 +1,11 @@
 import React, {useState} from 'react'
+import AboutMe from '../components/AboutMe'
+import LandingPage from '../components/LandingPage'
 import Navbar from '../components/Navbar'
 import Topbar from '../components/Topbar'
+
+
+//
 
 const Home = () => {
 
@@ -20,6 +25,9 @@ const Home = () => {
     <>
     <Topbar isOpen={isOpen} toggle ={toggle} />
     <Navbar  toggle={toggle}/>
+    <LandingPage />
+    <AboutMe />
+
     </>
   )
 }
