@@ -18,7 +18,7 @@ const LandingPage = () => {
     
 
       <AsideRight>
-        <LandingH1>This is the Right LandingContainer</LandingH1>
+        <LandingText>This is the Right LandingContainer</LandingText>
       </AsideRight>
     </LandingContainer>
   );
