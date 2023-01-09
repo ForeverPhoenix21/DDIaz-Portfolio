@@ -11,7 +11,7 @@ export const LandingContainer = styled.div`
   grid-template-rows: repeat(6, 100px);
   height: auto;
   column-gap: 2%;
-  background-color: red;
+  background-color: seashell;
 
   @media screen and (max-width: 960px) {
     height: 400px;
@@ -41,6 +41,7 @@ export const AsideLeft = styled.div`
   max-width: 450px;
   min-width: 450px;
   text-align: center;
+  transition-duration: 1s;
   background-color: white;
 
   @media screen and (max-width: 960px) {
@@ -48,7 +49,6 @@ export const AsideLeft = styled.div`
     min-width: 350px;
     height: 350px;
     align-self: center;
-
     transition: 0.8s all ease;
   }
 
@@ -79,7 +79,9 @@ export const AsideRight = styled.div`
   max-width: 450px;
   min-width: 450px;
   text-align: center;
-  background-color: white;
+  /* transition-property: width, height; */
+  transition-duration: 1s;
+  /* background-color: white; */
   /* margin-left: 5%; */
 
   @media screen and (max-width: 960px) {
@@ -99,10 +101,23 @@ export const AsideRight = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    width: 100%;
+    width: 250px;
     height: 250px;
     margin: auto;
     transition: 0.8s all ease;
     margin-bottom: 2%;
+  }
+`;
+
+export const ProfilePic = styled.img`
+  border: 1px dotted blue;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+
+  @media screen and (max-width: 600px) {
+    width: 250px;
+    height: 250px;
+    /* transition: 0.8s all ease; */
   }
 `;
