@@ -11,7 +11,7 @@ export const LandingContainer = styled.div`
   grid-template-rows: repeat(6, 100px);
   height: auto;
   column-gap: 2%;
-  background-color: seashell;
+  background-color: whitesmoke;
 
   @media screen and (max-width: 960px) {
     height: 400px;
@@ -33,7 +33,7 @@ export const LandingContainer = styled.div`
 
 // The left Landing page container
 export const AsideLeft = styled.div`
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   grid-column: 2;
   grid-row: 2 /4;
   justify-self: center;
@@ -42,7 +42,7 @@ export const AsideLeft = styled.div`
   min-width: 450px;
   text-align: center;
   transition-duration: 1s;
-  background-color: white;
+  /* background-color: white; */
 
   @media screen and (max-width: 960px) {
     width: 100%;
@@ -71,15 +71,14 @@ export const AsideLeft = styled.div`
 // The Right Landing Page container
 
 export const AsideRight = styled.div`
-  border: 1px solid red;
+  /* border: 1px solid red; */
   grid-column: 3;
   grid-row: 2 /4;
   justify-self: center;
   height: 400px;
-  max-width: 450px;
-  min-width: 450px;
+  max-width: 400px;
+  min-width: 400px;
   text-align: center;
-  /* transition-property: width, height; */
   transition-duration: 1s;
   /* background-color: white; */
   /* margin-left: 5%; */
@@ -114,6 +113,7 @@ export const ProfilePic = styled.img`
   width: 100%;
   height: 100%;
   align-self: center;
+  border-radius: 50%;
 
   @media screen and (max-width: 600px) {
     width: 250px;

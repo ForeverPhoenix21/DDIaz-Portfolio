@@ -15,6 +15,7 @@ const LandingPage = () => {
   return (
     <LandingContainer>
       <AsideLeft>
+        <br></br>
         <LandingH1>FrontEnd Developer</LandingH1>
         <LandingText>This is the Left LandingContainer</LandingText>
       </AsideLeft>
