@@ -10,6 +10,7 @@ export const LandingContainer = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 100px);
   height: auto;
+  margin: auto auto 20px;
   column-gap: 2%;
   background-color: whitesmoke;
 
@@ -20,13 +21,14 @@ export const LandingContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 400px;
+
     transition: 0.8s all ease;
   }
 
   @media screen and (max-width: 600px) {
     height: auto;
     display: block;
-    margin: auto;
+    /* margin: auto auto 20px; */
     transition: 0.8s all ease;
   }
 `;

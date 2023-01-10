@@ -7,7 +7,7 @@ const IconBar = () => {
         <IconText>
             Experience With:
         </IconText>
-        <IconTile>
+        {/* <IconTile>
             <Icon alt="HTML LOGO"/>
         </IconTile>
         <IconTile>
@@ -18,7 +18,7 @@ const IconBar = () => {
         </IconTile>
         <IconTile>
             <Icon alt="REACT LOGO"/>
-        </IconTile>
+        </IconTile> */}
         <IconTile>
             <Icon alt="NodeJS LOGO"/>
         </IconTile>
