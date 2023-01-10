@@ -2,17 +2,43 @@ import styled from "styled-components";
 
 
 export const AboutMeContainer = styled.div`
-height: 1400px;
+display: flex;
+height: 800px;
 width: auto;
+z-index: 1;
+position: relative;
+`
 
+export const ContainerBG = styled.div`
+top:0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden; 
+background: rgba(0, 0, 0, 0.9)
+`
 
+export const VideoBg = styled.video`
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+background: #232a34;
+
+opacity: .09;
 `
 
 export const TextContainer = styled.div`
+z-index: 2;
+position: absolute;
 width:auto;
+color:whitesmoke;
 max-width: 850px;
 margin: auto 50px;
 padding-top:20px;
+border: 1px red dotted;
 
 `
 
@@ -69,3 +95,4 @@ line-height: 28px;
 
 
 `
+

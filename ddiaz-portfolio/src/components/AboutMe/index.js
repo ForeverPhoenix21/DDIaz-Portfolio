@@ -4,13 +4,23 @@ import {
   AboutMeText,
   H2Text,
   TextContainer,
+  VideoBg,
+  ContainerBG
 } from "./AboutMe.styles";
+
+import Video from "../../videos/backGroundVideo.mp4";
 
 const AboutMe = () => {
   return (
     <AboutMeContainer>
+      <ContainerBG>
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+      </ContainerBG>
       <TextContainer>
-        <H2Text>I Create tailored websites for small businesses and start-ups to thlep them reach bigger audiences</H2Text>
+        <H2Text>
+          I Create tailored websites for small businesses and start-ups to hlep
+          them reach bigger audiences
+        </H2Text>
         <H2Text></H2Text>
         <AboutMeText>
           Did you hear that? They've shut down the main reactor. We'll be

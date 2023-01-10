@@ -14,7 +14,7 @@ export const IconBarContainer = styled.div`
 `;
 
 export const IconTile = styled.div`
-  margin: 0px 20px;
+  margin: 0px 0px;
   width: auto;
 `;
 
