@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe'
 import LandingPage from '../components/LandingPage'
 import Navbar from '../components/Navbar'
 import Topbar from '../components/Topbar'
+import IconBar from '../components/IconBar'
 
 
 //
@@ -26,6 +27,7 @@ const Home = () => {
     <Topbar isOpen={isOpen} toggle ={toggle} />
     <Navbar  toggle={toggle}/>
     <LandingPage />
+    <IconBar/>
     <AboutMe />
 
     </>
