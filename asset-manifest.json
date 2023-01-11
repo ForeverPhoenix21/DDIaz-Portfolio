@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DDiaz-Portfolio/static/css/main.d7da34c1.css",
-    "main.js": "/DDiaz-Portfolio/static/js/main.50d2a78c.js",
+    "main.js": "/DDiaz-Portfolio/static/js/main.f668fd74.js",
     "static/media/backGroundVideo.mp4": "/DDiaz-Portfolio/static/media/backGroundVideo.d28831bc5d9eeb4a9a44.mp4",
     "static/media/pic.jpeg": "/DDiaz-Portfolio/static/media/pic.68eb2f91fae1fd773258.jpeg",
     "index.html": "/DDiaz-Portfolio/index.html",
     "main.d7da34c1.css.map": "/DDiaz-Portfolio/static/css/main.d7da34c1.css.map",
-    "main.50d2a78c.js.map": "/DDiaz-Portfolio/static/js/main.50d2a78c.js.map"
+    "main.f668fd74.js.map": "/DDiaz-Portfolio/static/js/main.f668fd74.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.50d2a78c.js"
+    "static/js/main.f668fd74.js"
   ]
 }
