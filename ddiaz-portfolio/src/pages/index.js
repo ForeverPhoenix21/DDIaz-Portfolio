@@ -4,6 +4,7 @@ import LandingPage from '../components/LandingPage'
 import Navbar from '../components/Navbar'
 import Topbar from '../components/Topbar'
 import IconBar from '../components/IconBar'
+import ProjectSection from '../components/ProjectSection'
 
 
 //
@@ -29,6 +30,7 @@ const Home = () => {
     <LandingPage />
     <IconBar/>
     <AboutMe />
+    <ProjectSection />
 
     </>
   )

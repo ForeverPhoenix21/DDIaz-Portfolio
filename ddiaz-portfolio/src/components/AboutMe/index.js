@@ -18,7 +18,7 @@ const AboutMe = () => {
       </ContainerBG>
       <TextContainer>
         <H2Text>
-          I Create tailored websites for small businesses and start-ups to hlep
+          I Create tailored websites for small businesses and start-ups to help
           them reach bigger audiences
         </H2Text>
         <H2Text></H2Text>
