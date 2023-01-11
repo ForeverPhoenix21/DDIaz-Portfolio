@@ -9,7 +9,11 @@ import {
   LongTileTextContainer,
   LongTileContainerRight,
   ShortTileContainerLeft,
+  ShortTileImgContainer,
+  SmallTilePic,
 } from "./ProjectSection.styles";
+
+import Project2Pic from "../../images/busTrackerPic.png";
 
 const ProjectSection = () => {
   return (
@@ -19,13 +23,31 @@ const ProjectSection = () => {
         <LongTileTextContainer></LongTileTextContainer>
       </LongTileContainerLeft>
       <ShortTileContainerRight>
-        <ShortTileTextContainer></ShortTileTextContainer>
+        <ShortTileTextContainer>
+          <h2>Project 2 </h2>
+          <br></br>
+          <PSectionText>
+            The Real-Time-Bus-Tracking program is a project that uses the MTBA
+            API, and Mapbox which actively tracks the busses on routes 1 and 7
+            in Massachusetts, United States. 
+          </PSectionText>
+        </ShortTileTextContainer>
+        <ShortTileImgContainer>
+          <SmallTilePic src={Project2Pic} alt="Picture of Bus Tracking app" />
+        </ShortTileImgContainer>
       </ShortTileContainerRight>
       <LongTileContainerRight>
         <LongTileTextContainer></LongTileTextContainer>
       </LongTileContainerRight>
       <ShortTileContainerLeft>
-        <ShortTileTextContainer></ShortTileTextContainer>
+        <ShortTileTextContainer>
+          <h2>Project 3</h2>
+          <br></br>
+          <PSectionText>Does this work</PSectionText>
+        </ShortTileTextContainer>
+        <ShortTileImgContainer>
+          <SmallTilePic src={Project2Pic} alt="Picture of Bus Tracking app" />
+        </ShortTileImgContainer>
       </ShortTileContainerLeft>
     </ProjectSectionContainer>
   );
