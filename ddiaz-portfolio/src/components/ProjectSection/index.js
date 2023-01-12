@@ -43,7 +43,7 @@ const ProjectSection = () => {
         <ShortTileTextContainer>
           <h2>Project 3</h2>
           <br></br>
-          <PSectionText>Does this work</PSectionText>
+          <PSectionText>Does this work. How far will this text  go</PSectionText>
         </ShortTileTextContainer>
         <ShortTileImgContainer>
           <SmallTilePic src={Project2Pic} alt="Picture of Bus Tracking app" />

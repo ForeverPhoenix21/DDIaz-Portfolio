@@ -1,20 +1,36 @@
 import styled from "styled-components";
 
 export const PSectionH2 = styled.h2`
-color: white;
-`
-
-
-export const PSectionText = styled.p`
-color:white;
+  color: white;
 `;
 
+export const PSectionText = styled.p`
+  color: white;
+`;
 
 export const ProjectSectionContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(32, 50px);
   background-color: black;
+
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+    transition: 1.0s all ease;
+  }
+
+  /* @media screen and (max-width: 768px) {
+    display: grid;
+    grid-auto-flow: row;
+    transition: 0.8s all ease;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: 250px;
+    margin: 2% auto;
+    transition: 0.8s all ease;
+  } */
 `;
 
 // The start of the Long Tile Container styles
@@ -26,6 +42,12 @@ export const LongTileContainerLeft = styled.div`
   width: auto;
   margin-left: 20px;
   background-color: lightblue;
+
+    @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: auto;
+    transition: 0.8s all ease;
+  }
 
   /* @media screen and (max-width: 960px) {
     width: 100%;
@@ -57,6 +79,13 @@ export const LongTileContainerRight = styled.div`
   width: auto;
   margin-right: 20px;
   background-color: lightblue;
+
+
+    @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: auto;
+    transition: 0.8s all ease;
+  }
   /* 
 @media screen and (max-width: 960px) {
     width: auto;
@@ -89,13 +118,12 @@ export const ShortTileContainerRight = styled.div`
   grid-template-columns: 1fr 50%;
   grid-template-rows: 1fr;
 
-  /* @media screen and (max-width: 960px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
-    height: 500px;
-    max-width: 340px;
+    margin: auto;
     transition: 0.8s all ease;
   }
-
+ /*
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 270px;
@@ -125,6 +153,12 @@ export const ShortTileContainerLeft = styled.div`
   display: grid;
   grid-template-columns: 1fr 50%;
   grid-template-rows: 1fr;
+
+      @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: auto;
+    transition: 0.8s all ease;
+  }
 
   /* @media screen and (max-width: 960px) {
     width: 100%;
@@ -157,35 +191,43 @@ export const ShortTileTextContainer = styled.div`
   grid-column: 2;
   grid-row: 1;
   text-align: center;
-  align-self: center; 
+  align-self: center;
   /* The Styling Below is for the Text inside the container */
   grid-column: 1;
   height: auto;
   width: auto;
   line-height: 1.5rem;
-  margin:10px;
+  margin: 10px;
   border: 1px purple solid;
 `;
 
 export const ShortTileImgContainer = styled.div`
-grid-column: 2;
-grid-row: 1;
-
-/* width: auto; */
-align-self: center;
-margin:10px;
-/* border: 1px red solid; */
-`
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  margin: 10px;
+  /* border: 1px red solid; */
+`;
 // Image Styling
 
 export const LargeTilePic = styled.img`
-/* height: 100%; */
-width: 100%;
-`
+  /* height: 100%; */
+  width: 100%;
+  transition: 0.8s all ease;
+`;
 
 export const SmallTilePic = styled.img`
-height: 300px;
-width: 100%;
-max-width: fit-content;
-border-radius: 10%;
-`
+  height: 100%;
+  width: 100%;
+  max-width: fit-content;
+  /* min-width: 300px; */
+  border-radius: 10%;
+  /* transition: 0.8s all ease; */
+
+      @media screen and (max-width: 768px) {
+    width: 100%;
+    margin:0;
+    max-width: 400px;
+    transition: 0.8s all ease;
+  }
+`;
