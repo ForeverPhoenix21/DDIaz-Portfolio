@@ -5,11 +5,10 @@ import {
   AsideRight,
   LandingH1,
   LandingText,
-  ProfilePic
+  ProfilePic,
 } from "./LandingPage.styles";
 
-import Pic from '../../images/pic.jpeg'
-
+import Pic from "../../images/DerekHS.jpeg";
 
 const LandingPage = () => {
   return (

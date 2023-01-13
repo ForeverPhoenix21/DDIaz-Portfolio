@@ -1,55 +1,57 @@
 import React from "react";
 
 import {
-  ProjectSectionContainer,
-  PSectionText,
-  LongTileContainerLeft,
-  ShortTileContainerRight,
-  ShortTileTextContainer,
-  LongTileTextContainer,
-  LongTileContainerRight,
-  ShortTileContainerLeft,
-  ShortTileImgContainer,
-  SmallTilePic,
+  ProjectContainer,
+  Container1,
+  Container2,
+  Container3,
+  Container4,
+  Container5,
+  Container6,
+  ProjectPic,
+  PText,
 } from "./ProjectSection.styles";
 
-import Project2Pic from "../../images/busTrackerPic.png";
+import BusPic from "../../images/busTrackerPic.png";
+import BankAppPic from "../../images/BankAppPic.png";
 
 const ProjectSection = () => {
   return (
-    <ProjectSectionContainer>
-      <PSectionText>This is the Section Container</PSectionText>
-      <LongTileContainerLeft>
-        <LongTileTextContainer></LongTileTextContainer>
-      </LongTileContainerLeft>
-      <ShortTileContainerRight>
-        <ShortTileTextContainer>
-          <h2>Project 2 </h2>
-          <br></br>
-          <PSectionText>
-            The Real-Time-Bus-Tracking program is a project that uses the MTBA
-            API, and Mapbox which actively tracks the busses on routes 1 and 7
-            in Massachusetts, United States. 
-          </PSectionText>
-        </ShortTileTextContainer>
-        <ShortTileImgContainer>
-          <SmallTilePic src={Project2Pic} alt="Picture of Bus Tracking app" />
-        </ShortTileImgContainer>
-      </ShortTileContainerRight>
-      <LongTileContainerRight>
-        <LongTileTextContainer></LongTileTextContainer>
-      </LongTileContainerRight>
-      <ShortTileContainerLeft>
-        <ShortTileTextContainer>
-          <h2>Project 3</h2>
-          <br></br>
-          <PSectionText>Does this work. How far will this text  go</PSectionText>
-        </ShortTileTextContainer>
-        <ShortTileImgContainer>
-          <SmallTilePic src={Project2Pic} alt="Picture of Bus Tracking app" />
-        </ShortTileImgContainer>
-      </ShortTileContainerLeft>
-    </ProjectSectionContainer>
+    <ProjectContainer>
+      <Container1>
+        <h2>3-Tier Bank App</h2>
+        <ProjectPic src={BankAppPic} />
+        <PText>
+          The Real-Time-Bus-Tracking program is a project that uses the MTBA
+          API, and Mapbox which actively tracks the busses on routes 1 and 7 in
+          Massachusetts, United States.
+        </PText>
+      </Container1>
+      <Container2>
+        <h2>MTA Bus Tracker</h2>
+        <ProjectPic
+          src={BusPic}
+          alt=" Screenshot picture of The Bus Tracker App "
+        />
+        <PText>
+          The Real-Time-Bus-Tracking program is a project that uses the MTBA
+          API, and Mapbox which actively tracks the busses on routes 1 and 7 in
+          Massachusetts, United States.
+        </PText>
+      </Container2>
+      <Container3>
+        <h2>3</h2>
+      </Container3>
+      <Container4>
+        <h2>4</h2>
+      </Container4>
+      <Container5>
+        <h2>5</h2>
+      </Container5>
+      <Container6>
+        <h2>6</h2>
+      </Container6>
+    </ProjectContainer>
   );
 };
 

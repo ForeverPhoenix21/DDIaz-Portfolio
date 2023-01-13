@@ -35,7 +35,8 @@ export const TextContainer = styled.div`
   width: auto;
   color: whitesmoke;
   max-width: 850px;
-  margin: auto 50px;
+  margin: auto 10%;
+  /* margin-left: 10%; */
   padding-top: 20px;
   border: 1px red dotted;
 `;

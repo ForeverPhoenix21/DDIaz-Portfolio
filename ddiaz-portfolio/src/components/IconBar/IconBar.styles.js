@@ -9,8 +9,9 @@ export const IconBarContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
+  /* margin-left: 50px; */
+  margin-left: 10%;
+  margin-right: 10%;
 `;
 
 export const IconTile = styled.div`

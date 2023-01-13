@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   background: #000;
   height: 60px;
   /* margin-top: -80px; */
-  padding-left: 60px;
+  /* padding-left: 60px; */
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -36,9 +36,16 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   justify-self: flex-start;
   align-items: center;
-  margin-left: -35px;
+  /* margin-left: -35px; */
+  margin-left: 10%;
   font-weight: bold;
   text-decoration: none;
+
+  /* @media screen and (max-width: 480px) {
+    margin: 20%;
+    transition: 1s all ease;
+
+  } */
 `;
 
 export const MobileIcon = styled.div`
