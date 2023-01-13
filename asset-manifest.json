@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/DDiaz-Portfolio/static/css/main.d7da34c1.css",
-    "main.js": "/DDiaz-Portfolio/static/js/main.784ac9da.js",
+    "main.js": "/DDiaz-Portfolio/static/js/main.8e439880.js",
     "static/media/backGroundVideo.mp4": "/DDiaz-Portfolio/static/media/backGroundVideo.d28831bc5d9eeb4a9a44.mp4",
-    "static/media/pic.jpeg": "/DDiaz-Portfolio/static/media/pic.68eb2f91fae1fd773258.jpeg",
+    "static/media/DerekHS.jpeg": "/DDiaz-Portfolio/static/media/DerekHS.368d6e794e8cbfa68147.jpeg",
+    "static/media/busTrackerPic.png": "/DDiaz-Portfolio/static/media/busTrackerPic.24a62864a21b608ef98b.png",
+    "static/media/BankAppPic.png": "/DDiaz-Portfolio/static/media/BankAppPic.2563afca83808c9c1680.png",
     "index.html": "/DDiaz-Portfolio/index.html",
     "main.d7da34c1.css.map": "/DDiaz-Portfolio/static/css/main.d7da34c1.css.map",
-    "main.784ac9da.js.map": "/DDiaz-Portfolio/static/js/main.784ac9da.js.map"
+    "main.8e439880.js.map": "/DDiaz-Portfolio/static/js/main.8e439880.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.784ac9da.js"
+    "static/js/main.8e439880.js"
   ]
 }
