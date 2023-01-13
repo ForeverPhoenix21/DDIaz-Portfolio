@@ -6,13 +6,34 @@ margin: auto 10px;
 line-height: 1.5rem;
 `
 
+export const H2Text =styled.h2`
+margin: 20px;
+
+`
+export const ProjectHeader = styled.h1`
+font-size: 2rem;
+display: flex;
+margin-left:10%;
+margin-top: 5%;
+@media screen and (max-width: 480px) {
+    margin: 10%;
+    transition: 1s all ease;
+  }
+
+`
 
 export const ProjectContainer = styled.div`
+
+
+
+`
+
+export const ProjectGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: minmax(400px, auto);
   /* grid-auto-flow: dense; */
-  margin: 10%;
+  margin:5%  10% 10%  ;
   grid-gap: 8%;
   min-width: 350px;
 
@@ -84,5 +105,5 @@ export const Container6 = styled.div`
 export const ProjectPic = styled.img`
 width: 350px;
 max-height: 200px;
-margin: 2% auto ;
+margin: 10px auto ;
 `
