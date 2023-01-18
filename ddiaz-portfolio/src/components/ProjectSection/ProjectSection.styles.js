@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const PText = styled.p`
-  margin: auto 10px;
-  line-height: 1.5rem;
-  color: whitesmoke;
-`;
-
-export const H2Text = styled.h2`
-  color: whitesmoke;
-  margin: 20px;
-`;
 export const ProjectHeader = styled.h1`
   color: whitesmoke;
   font-size: 2rem;
@@ -20,6 +10,29 @@ export const ProjectHeader = styled.h1`
     margin: 10%;
     transition: 1s all ease;
   }
+`;
+
+export const HeaderText = styled.p`
+  color: whitesmoke;
+  font-size: 1rem;
+  display: flex;
+  margin:5% 10%;
+  max-width: 850px;
+  line-height: 1.5rem;
+  @media screen and (max-width: 480px) {
+    margin: 10%;
+    transition: 1s all ease;
+  }
+`;
+export const PText = styled.p`
+  margin: auto 10px;
+  line-height: 1.5rem;
+  color: whitesmoke;
+`;
+
+export const H2Text = styled.h2`
+  color: whitesmoke;
+  margin: 20px;
 `;
 
 export const ProjectContainer = styled.div`
@@ -35,9 +48,7 @@ export const ProjectGrid = styled.div`
   grid-gap: 8%;
   min-width: 350px;
   border: 1px red dotted;
-  background-color: #041927; 
-
-
+  background-color: #041927;
 
   @media screen and (max-width: 480px) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -62,7 +73,6 @@ export const ProjectGrid = styled.div`
     /* margin: 10%; */
     transition: 1s all ease;
   }
-
 `;
 
 export const GridContainer = styled.div`
