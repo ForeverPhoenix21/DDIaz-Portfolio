@@ -8,16 +8,21 @@ import {
   H2Text,
   ProjectGrid,
   ProjectHeader,
+  HeaderText,
 } from "./ProjectSection.styles";
 
 import BusPic from "../../images/busTrackerPic.png";
 import BankAppPic from "../../images/BankAppPic.png";
 import PacMenPic from "../../images/pacMen.png";
+import CommingSoonPic from "../../images/coming-soon.png";
 
 const ProjectSection = () => {
   return (
     <ProjectContainer>
       <ProjectHeader>Projects</ProjectHeader>
+      <HeaderText>
+        The Projects listed below are a few examples of my personal work and others that I've completed for MIT's professional course. To see my additonal projects, vist my Github Repo by clicking here. 
+      </HeaderText>
       <ProjectGrid>
         <GridContainer>
           <H2Text>3-Tier Bank App</H2Text>
@@ -53,14 +58,22 @@ const ProjectSection = () => {
           </PText>
         </GridContainer>
         <GridContainer>
-          <H2Text>4</H2Text>
+          <H2Text>Other Projects</H2Text>
+          <ProjectPic
+            src={CommingSoonPic}
+            alt=" Screenshot picture of The PacMen App "
+          />
+          <PText>
+            Click below to see my other projects and live demos in my Repository
+            on Github.
+          </PText>
         </GridContainer>
-        <GridContainer>
+        {/* <GridContainer>
           <H2Text>5</H2Text>
         </GridContainer>
         <GridContainer>
           <H2Text>6</H2Text>
-        </GridContainer>
+        </GridContainer> */}
       </ProjectGrid>
     </ProjectContainer>
   );
