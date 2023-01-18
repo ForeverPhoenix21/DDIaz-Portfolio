@@ -2,12 +2,7 @@ import React from "react";
 
 import {
   ProjectContainer,
-  Container1,
-  Container2,
-  Container3,
-  Container4,
-  Container5,
-  Container6,
+  GridContainer,
   ProjectPic,
   PText,
   H2Text,
@@ -17,13 +12,14 @@ import {
 
 import BusPic from "../../images/busTrackerPic.png";
 import BankAppPic from "../../images/BankAppPic.png";
+import PacMenPic from "../../images/pacMen.png";
 
 const ProjectSection = () => {
   return (
     <ProjectContainer>
       <ProjectHeader>Projects</ProjectHeader>
       <ProjectGrid>
-        <Container1>
+        <GridContainer>
           <H2Text>3-Tier Bank App</H2Text>
           <ProjectPic src={BankAppPic} />
           <PText>
@@ -31,8 +27,8 @@ const ProjectSection = () => {
             API, and Mapbox which actively tracks the busses on routes 1 and 7
             in Massachusetts, United States.
           </PText>
-        </Container1>
-        <Container2>
+        </GridContainer>
+        <GridContainer>
           <H2Text>MTA Bus Tracker</H2Text>
           <ProjectPic
             src={BusPic}
@@ -43,19 +39,28 @@ const ProjectSection = () => {
             API, and Mapbox which actively tracks the busses on routes 1 and 7
             in Massachusetts, United States.
           </PText>
-        </Container2>
-        <Container3>
-          <H2Text>3</H2Text>
-        </Container3>
-        <Container4>
+        </GridContainer>
+        <GridContainer>
+          <H2Text>PacMen</H2Text>
+          <ProjectPic
+            src={PacMenPic}
+            alt=" Screenshot picture of The PacMen App "
+          />
+          <PText>
+            The PacMen-Exercise creates Pacmen on the screen done through a
+            function coded in JavaScript. The Pacmen can be set in motion by
+            clicking the start button.
+          </PText>
+        </GridContainer>
+        <GridContainer>
           <H2Text>4</H2Text>
-        </Container4>
-        <Container5>
+        </GridContainer>
+        <GridContainer>
           <H2Text>5</H2Text>
-        </Container5>
-        <Container6>
+        </GridContainer>
+        <GridContainer>
           <H2Text>6</H2Text>
-        </Container6>
+        </GridContainer>
       </ProjectGrid>
     </ProjectContainer>
   );

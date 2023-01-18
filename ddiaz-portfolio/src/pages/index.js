@@ -28,8 +28,8 @@ const Home = () => {
     <Topbar isOpen={isOpen} toggle ={toggle} />
     <Navbar  toggle={toggle}/>
     <LandingPage />
-    <IconBar/>
     <AboutMe />
+    <IconBar/>
     <ProjectSection />
 
     </>

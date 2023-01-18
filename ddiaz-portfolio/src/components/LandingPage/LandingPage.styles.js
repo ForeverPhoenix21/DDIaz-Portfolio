@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-export const LandingH1 = styled.h1``;
+export const LandingH1 = styled.h1`
+color: whitesmoke;
+`;
 
-export const LandingText = styled.p``;
+export const LandingText = styled.p`
+color: whitesmoke;
+`;
 
 export const LandingContainer = styled.div`
   border: 1px solid red;
@@ -12,7 +16,7 @@ export const LandingContainer = styled.div`
   height: auto;
   margin: auto auto 20px;
   column-gap: 2%;
-  background-color: whitesmoke;
+  background-color: #041927;
 
   @media screen and (max-width: 960px) {
     height: 400px;

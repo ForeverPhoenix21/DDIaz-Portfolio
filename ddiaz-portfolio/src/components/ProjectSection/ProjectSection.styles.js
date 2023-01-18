@@ -1,43 +1,43 @@
 import styled from "styled-components";
 
-
 export const PText = styled.p`
-margin: auto 10px;
-line-height: 1.5rem;
-`
+  margin: auto 10px;
+  line-height: 1.5rem;
+  color: whitesmoke;
+`;
 
-export const H2Text =styled.h2`
-margin: 20px;
-
-`
+export const H2Text = styled.h2`
+  color: whitesmoke;
+  margin: 20px;
+`;
 export const ProjectHeader = styled.h1`
-font-size: 2rem;
-display: flex;
-margin-left:10%;
-margin-top: 5%;
-@media screen and (max-width: 480px) {
+  color: whitesmoke;
+  font-size: 2rem;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+  @media screen and (max-width: 480px) {
     margin: 10%;
     transition: 1s all ease;
   }
-
-`
+`;
 
 export const ProjectContainer = styled.div`
-
-
-
-`
+  background-color: #041927;
+`;
 
 export const ProjectGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: minmax(400px, auto);
   /* grid-auto-flow: dense; */
-  margin:5%  10% 10%  ;
+  margin: 5% 10% 10%;
   grid-gap: 8%;
   min-width: 350px;
-
   border: 1px red dotted;
+  background-color: #041927; 
+
+
 
   @media screen and (max-width: 480px) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -50,13 +50,11 @@ export const ProjectGrid = styled.div`
     transition: 1s all ease;
     /* grid-gap: 2%; */
   }
-
   @media screen and (max-width: 975px) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     transition: 1s all ease;
     /* grid-gap: 2%; */
   }
-
   @media screen and (max-width: 1200px) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 2%;
@@ -64,46 +62,19 @@ export const ProjectGrid = styled.div`
     /* margin: 10%; */
     transition: 1s all ease;
   }
+
 `;
 
-export const Container1 = styled.div`
+export const GridContainer = styled.div`
   border: 1px red dotted;
-  background-color: skyblue;
+  background-color: #041927;
   text-align: center;
+  /* height: 100%; */
+  /* margin: 5%; */
 `;
-
-export const Container2 = styled.div`
-  border: 1px red dotted;
-  background-color: skyblue;
-  text-align: center;
-`;
-
-export const Container3 = styled.div`
-  border: 1px red dotted;
-  background-color: skyblue;
-  text-align: center;
-`;
-
-export const Container4 = styled.div`
-  border: 1px red dotted;
-  background-color: skyblue;
-  text-align: center;
-`;
-export const Container5 = styled.div`
-  border: 1px red dotted;
-  background-color: skyblue;
-  text-align: center;
-`;
-
-export const Container6 = styled.div`
-  border: 1px red dotted;
-  background-color: skyblue;
-  text-align: center;
-`;
-
 
 export const ProjectPic = styled.img`
-width: 350px;
-max-height: 200px;
-margin: 10px auto ;
-`
+  width: 350px;
+  max-height: 200px;
+  margin: 10px auto;
+`;

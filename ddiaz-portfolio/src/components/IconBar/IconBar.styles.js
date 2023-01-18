@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const IconText = styled.p`
+color: whitesmoke;
   /* margin-right: 60px; */
 `;
 
