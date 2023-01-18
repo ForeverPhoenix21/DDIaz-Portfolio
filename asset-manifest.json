@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DDiaz-Portfolio/static/css/main.a84aac8a.css",
-    "main.js": "/DDiaz-Portfolio/static/js/main.790b5567.js",
+    "main.css": "/DDiaz-Portfolio/static/css/main.27fbcd0c.css",
+    "main.js": "/DDiaz-Portfolio/static/js/main.d3b351aa.js",
     "static/media/backGroundVideo.mp4": "/DDiaz-Portfolio/static/media/backGroundVideo.d28831bc5d9eeb4a9a44.mp4",
     "static/media/DerekHS.jpeg": "/DDiaz-Portfolio/static/media/DerekHS.368d6e794e8cbfa68147.jpeg",
     "static/media/pacMen.png": "/DDiaz-Portfolio/static/media/pacMen.490b17f32150c9b49355.png",
@@ -9,11 +9,11 @@
     "static/media/busTrackerPic.png": "/DDiaz-Portfolio/static/media/busTrackerPic.24a62864a21b608ef98b.png",
     "static/media/BankAppPic.png": "/DDiaz-Portfolio/static/media/BankAppPic.2563afca83808c9c1680.png",
     "index.html": "/DDiaz-Portfolio/index.html",
-    "main.a84aac8a.css.map": "/DDiaz-Portfolio/static/css/main.a84aac8a.css.map",
-    "main.790b5567.js.map": "/DDiaz-Portfolio/static/js/main.790b5567.js.map"
+    "main.27fbcd0c.css.map": "/DDiaz-Portfolio/static/css/main.27fbcd0c.css.map",
+    "main.d3b351aa.js.map": "/DDiaz-Portfolio/static/js/main.d3b351aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84aac8a.css",
-    "static/js/main.790b5567.js"
+    "static/css/main.27fbcd0c.css",
+    "static/js/main.d3b351aa.js"
   ]
 }
