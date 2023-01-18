@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const LandingH1 = styled.h1`
-color: whitesmoke;
+/* color: whitesmoke; */
+background:none;
 `;
 
 export const LandingText = styled.p`
-color: whitesmoke;
+/* color: whitesmoke; */
+background:none;
 `;
 
 export const LandingContainer = styled.div`
@@ -16,7 +18,8 @@ export const LandingContainer = styled.div`
   height: auto;
   margin: auto auto 20px;
   column-gap: 2%;
-  background-color: #041927;
+  
+  /* background-color:#11aac13e; */
 
   @media screen and (max-width: 960px) {
     height: 400px;
@@ -48,6 +51,7 @@ export const AsideLeft = styled.div`
   min-width: 450px;
   text-align: center;
   transition-duration: 1s;
+  background:none;
   /* background-color: white; */
 
   @media screen and (max-width: 960px) {
@@ -86,6 +90,7 @@ export const AsideRight = styled.div`
   min-width: 400px;
   text-align: center;
   transition-duration: 1s;
+  background:none;
   /* background-color: white; */
   /* margin-left: 5%; */
 
@@ -115,7 +120,7 @@ export const AsideRight = styled.div`
 `;
 
 export const ProfilePic = styled.img`
-  border: 1px dotted blue;
+  /* border: 1px dotted blue; */
   width: 100%;
   height: 100%;
   align-self: center;

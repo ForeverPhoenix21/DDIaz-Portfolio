@@ -18,7 +18,7 @@ export const ContainerBG = styled.div`
   overflow: hidden;
   background-color: #041927;
   /* opacity: 0.99; */
-  /* background: rgba(0, 0, 0, 0.9); */
+  background-color: rgba(4, 25, 39, 0.6);
 `;
 
 export const VideoBg = styled.video`
@@ -36,13 +36,13 @@ export const TextContainer = styled.div`
   position: absolute;
   width: auto;
   color: whitesmoke;
-  background:none;
+  background: none;
   max-width: 850px;
-  margin: auto 10%;
+  margin: 2% 10%;
   /* margin-left: 10%; */
   /* padding-top: 20px;
   padding-bottom: 20px; */
-  border: 1px red dotted;
+  /* border: 1px red dotted; */
   /* background-color: rgba(4, 25, 39, 
     .7) */
 `;
@@ -54,8 +54,7 @@ export const H2Text = styled.h2`
   font-weight: 100;
   padding-bottom: 1rem;
   transition: 0.8ms all ease;
-  background-color: rgba(4, 25, 39, 
-    .7);
+  background-color: rgba(4, 25, 39, 0.05);
   /* margin: 5%; */
 
   @media screen and (min-width: 1440px) {
@@ -97,6 +96,5 @@ export const AboutMeText = styled.p`
   font-size: 16px;
   line-height: 28px;
   padding-bottom: 1rem;
-    background-color: rgba(4, 25, 39, 
-    .7);
+  background-color: rgba(4, 25, 39, 0.05);
 `;
