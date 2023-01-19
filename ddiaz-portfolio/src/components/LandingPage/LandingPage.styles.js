@@ -3,16 +3,12 @@ import styled from "styled-components";
 export const LandingH1 = styled.h1`
   /* color: whitesmoke; */
   background: none;
-  text-align: center;
-  /* padding-left: 20%; */
 `;
 
 export const LandingText = styled.p`
   /* color: whitesmoke; */
   background: none;
-  text-align: center;
-  /* padding-left: 20%; */
-
+  padding-top: 2vh;
 `;
 
 export const TextContainer = styled.div`
@@ -65,7 +61,7 @@ export const AsideRight = styled.div`
   grid-row: 1 / span 2;
   padding: 5%;
   align-self: center;
-  justify-self: start;
+  justify-self: center;
   max-width: 600px;
   max-height: 900px;
 `;
