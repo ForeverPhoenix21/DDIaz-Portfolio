@@ -2,49 +2,24 @@ import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
   display: flex;
-  height: 600px;
+  max-height: 600px;
+
   width: auto;
   z-index: 1;
-  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* position: relative; */
 `;
 
-// export const ContainerBG = styled.div`
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   overflow: hidden;
-//   background-color: #041927;
-//   /* opacity: 0.99; */
-//   background-color: rgba(4, 25, 39, 0.6);
-// `;
-
-// export const VideoBg = styled.video`
-//   width: 100%;
-//   height: 100%;
-//   -o-object-fit: cover;
-//   object-fit: cover;
-//   background: #041927;
-
-//   /* opacity: 0.6; */
-// `;
+export const GridContainer = styled.div``;
 
 export const TextContainer = styled.div`
   z-index: 4;
-  position: absolute;
+  position: flex;
   width: auto;
-  /* color: whitesmoke; */
-  /* background: none; */
-  max-width: 850px;
-  margin: 2% 10%;
-  /* margin-left: 10%; */
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
-  /* border: 1px red dotted; */
-  /* background-color: rgba(4, 25, 39, 
-    .7) */
+  /* max-width: 80%; */
+  margin-left: 10%;
+  margin-right: 10%;
 `;
 
 export const H2Text = styled.h2`
@@ -54,8 +29,6 @@ export const H2Text = styled.h2`
   font-weight: 100;
   padding-bottom: 1rem;
   transition: 0.8ms all ease;
-  /* background-color: rgba(4, 25, 39, 0.05); */
-  /* margin: 5%; */
 
   @media screen and (min-width: 1440px) {
     height: auto;
@@ -93,6 +66,7 @@ export const H2Text = styled.h2`
 `;
 
 export const AboutMeText = styled.p`
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 28px;
   padding-bottom: 1rem;
