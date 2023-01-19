@@ -8,35 +8,35 @@ export const AboutMeContainer = styled.div`
   position: relative;
 `;
 
-export const ContainerBG = styled.div`
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: #041927;
-  /* opacity: 0.99; */
-  background-color: rgba(4, 25, 39, 0.6);
-`;
+// export const ContainerBG = styled.div`
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   background-color: #041927;
+//   /* opacity: 0.99; */
+//   background-color: rgba(4, 25, 39, 0.6);
+// `;
 
-export const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #041927;
+// export const VideoBg = styled.video`
+//   width: 100%;
+//   height: 100%;
+//   -o-object-fit: cover;
+//   object-fit: cover;
+//   background: #041927;
 
-  opacity: 0.6;
-`;
+//   /* opacity: 0.6; */
+// `;
 
 export const TextContainer = styled.div`
-  z-index: 2;
+  z-index: 4;
   position: absolute;
   width: auto;
-  color: whitesmoke;
-  background: none;
+  /* color: whitesmoke; */
+  /* background: none; */
   max-width: 850px;
   margin: 2% 10%;
   /* margin-left: 10%; */
@@ -54,7 +54,7 @@ export const H2Text = styled.h2`
   font-weight: 100;
   padding-bottom: 1rem;
   transition: 0.8ms all ease;
-  background-color: rgba(4, 25, 39, 0.05);
+  /* background-color: rgba(4, 25, 39, 0.05); */
   /* margin: 5%; */
 
   @media screen and (min-width: 1440px) {
@@ -96,5 +96,5 @@ export const AboutMeText = styled.p`
   font-size: 16px;
   line-height: 28px;
   padding-bottom: 1rem;
-  background-color: rgba(4, 25, 39, 0.05);
+  /* background-color: rgba(4, 25, 39, 0.05); */
 `;

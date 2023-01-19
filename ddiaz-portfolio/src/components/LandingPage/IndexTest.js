@@ -8,7 +8,6 @@ import {
   LandingH1,
   LandingText,
   ProfilePic,
-  GridContainer
 } from "./LandingPage.styles";
 
 import Pic from "../../images/DerekHS.jpeg";
@@ -18,10 +17,9 @@ import Video from "../../videos/backGroundVideo.mp4";
 const LandingPage = () => {
   return (
     <LandingContainer>
-      <GridContainer>
-      
+      <ContainerBG>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      
+      </ContainerBG>
       <AsideLeft>
         <br></br>
         <LandingH1>FrontEnd Developer</LandingH1>
@@ -32,7 +30,6 @@ const LandingPage = () => {
         {/* <LandingText>This is the Right LandingContainer</LandingText> */}
         <ProfilePic src={Pic} alt="HeadShotPicture" />
       </AsideRight>
-      </GridContainer>
     </LandingContainer>
   );
 };

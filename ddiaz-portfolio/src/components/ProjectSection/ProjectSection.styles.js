@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectHeader = styled.h1`
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-size: 2rem;
   display: flex;
   margin-left: 10%;
@@ -13,7 +13,7 @@ export const ProjectHeader = styled.h1`
 `;
 
 export const HeaderText = styled.p`
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-size: 1rem;
   display: flex;
   margin:5% 10%;
@@ -36,7 +36,7 @@ export const H2Text = styled.h2`
 `;
 
 export const ProjectContainer = styled.div`
-  background-color: #041927;
+  /* background-color: #041927; */
 `;
 
 export const ProjectGrid = styled.div`
@@ -48,7 +48,7 @@ export const ProjectGrid = styled.div`
   grid-gap: 8%;
   min-width: 350px;
   border: 1px red dotted;
-  background-color: #041927;
+  /* background-color: #041927; */
 
   @media screen and (max-width: 480px) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

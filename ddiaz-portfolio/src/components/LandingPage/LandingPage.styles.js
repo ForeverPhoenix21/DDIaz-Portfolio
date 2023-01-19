@@ -1,134 +1,65 @@
 import styled from "styled-components";
 
 export const LandingH1 = styled.h1`
-/* color: whitesmoke; */
-background:none;
+  /* color: whitesmoke; */
+  background: none;
 `;
 
 export const LandingText = styled.p`
-/* color: whitesmoke; */
-background:none;
+  /* color: whitesmoke; */
+  background: none;
 `;
 
 export const LandingContainer = styled.div`
-  border: 1px solid red;
+  margin-top: 10px;
+`;
+
+export const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 100px);
-  height: auto;
-  margin: auto auto 20px;
-  column-gap: 2%;
-  
-  /* background-color:#11aac13e; */
+  grid-template-columns: 50% 2fr;
+  grid-template-rows: 50% 1fr;
+`;
 
-  @media screen and (max-width: 960px) {
-    height: 400px;
-    transition: 0.8s all ease;
-  }
+// Video Container Styling
+export const ContainerBG = styled.div`
 
-  @media screen and (max-width: 768px) {
-    height: 400px;
+`;
 
-    transition: 0.8s all ease;
-  }
+export const VideoBg = styled.video`
+grid-column:1 / span 2 ;
+grid-row: 1/ span 2;
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+  z-index: -1;
+  /* -o-object-fit: cover;
+  object-fit: cover; */
 
-  @media screen and (max-width: 600px) {
-    height: auto;
-    display: block;
-    /* margin: auto auto 20px; */
-    transition: 0.8s all ease;
-  }
+  opacity: 0.2;
 `;
 
 // The left Landing page container
 export const AsideLeft = styled.div`
-  /* border: 1px dotted red; */
-  grid-column: 2;
-  grid-row: 2 /4;
-  justify-self: center;
-  height: 400px;
-  max-width: 450px;
-  min-width: 450px;
-  text-align: center;
-  transition-duration: 1s;
-  background:none;
-  /* background-color: white; */
-
-  @media screen and (max-width: 960px) {
-    width: 100%;
-    min-width: 350px;
-    height: 350px;
-    align-self: center;
-    transition: 0.8s all ease;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    height: 270px;
-    min-width: 270px;
-    align-self: center;
-    transition: 0.8s all ease;
-  }
-
-  @media screen and (max-width: 600px) {
-    width: 100%;
-    height: 250px;
-    margin: 2% auto;
-    transition: 0.8s all ease;
-  }
+  grid-column: 1;
+  grid-row: 1;
 `;
 
 // The Right Landing Page container
 
 export const AsideRight = styled.div`
-  /* border: 1px solid red; */
-  grid-column: 3;
-  grid-row: 2 /4;
-  justify-self: center;
-  height: 400px;
-  max-width: 400px;
-  min-width: 400px;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  transition-duration: 1s;
-  background:none;
-  /* background-color: white; */
-  /* margin-left: 5%; */
-
-  @media screen and (max-width: 960px) {
-    width: auto;
-    min-width: 350px;
-    height: 350px;
-    align-self: center;
-    transition: 0.8s all ease;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    height: 270px;
-    min-width: 270px;
-    align-self: center;
-    transition: 0.8s all ease;
-  }
-
-  @media screen and (max-width: 600px) {
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    transition: 0.8s all ease;
-    margin-bottom: 2%;
-  }
 `;
 
 export const ProfilePic = styled.img`
   /* border: 1px dotted blue; */
-  width: 100%;
   height: 100%;
+  width: 100%;
+  max-width: fit-content;
   align-self: center;
   border-radius: 50%;
-
-  @media screen and (max-width: 600px) {
-    width: 250px;
-    height: 250px;
-    /* transition: 0.8s all ease; */
-  }
 `;

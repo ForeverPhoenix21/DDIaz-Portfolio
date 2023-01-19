@@ -13,9 +13,9 @@ import Video from "../../videos/backGroundVideo.mp4";
 const AboutMe = () => {
   return (
     <AboutMeContainer>
-      <ContainerBG>
+      {/* <ContainerBG>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </ContainerBG>
+      </ContainerBG> */}
       <TextContainer>
         <H2Text>
           I Create tailored websites for small businesses and start-ups to help
