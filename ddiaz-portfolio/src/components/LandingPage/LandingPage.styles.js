@@ -3,16 +3,23 @@ import styled from "styled-components";
 export const LandingH1 = styled.h1`
   /* color: whitesmoke; */
   background: none;
+  text-align: center;
+  /* padding-left: 20%; */
 `;
 
 export const LandingText = styled.p`
   /* color: whitesmoke; */
   background: none;
+  text-align: center;
+  /* padding-left: 20%; */
+
 `;
 
 export const TextContainer = styled.div`
-margin: 10% 20%;
-
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  line-height: 2rem;
+  /* text-align: center; */
 `;
 
 export const LandingContainer = styled.div`
@@ -25,6 +32,8 @@ export const GridContainer = styled.div`
   grid-template-rows: 50% 1fr;
   max-height: 600px;
 `;
+
+
 
 // Video Container Styling
 export const ContainerBG = styled.div``;
@@ -44,8 +53,9 @@ export const VideoBg = styled.video`
 export const AsideLeft = styled.div`
   grid-column: 1;
   grid-row: 1;
-  /* align-self: center; */
-  /* justify-self: center; */
+  /* text-align: center; */
+  margin-left: 20%;
+  padding-right: 5%;
 `;
 
 // The Right Landing Page container
@@ -53,20 +63,17 @@ export const AsideLeft = styled.div`
 export const AsideRight = styled.div`
   grid-column: 2;
   grid-row: 1 / span 2;
-  padding: 10%;
+  padding: 5%;
+  align-self: center;
+  justify-self: start;
   max-width: 600px;
   max-height: 900px;
-  /* width: 100%;
-  height: 100%; */
-  text-align: center;
 `;
 
 export const ProfilePic = styled.img`
   /* border: 1px dotted blue; */
-  height: 100%;
+  height: auto;
   width: 100%;
-  /* max-width: 450px;
-  max-height: 450px; */
   align-self: center;
   border-radius: 50%;
 `;

@@ -16,7 +16,7 @@ const IconBar = () => {
         <IconTile>
             <Icon alt="JS LOGO"/>
         </IconTile>
-        <IconTile>
+        {/* <IconTile>
             <Icon alt="REACT LOGO"/>
         </IconTile>
         <IconTile>
@@ -24,7 +24,7 @@ const IconBar = () => {
         </IconTile>
         <IconTile>
             <Icon alt="MongoDB LOGO"/>
-        </IconTile>
+        </IconTile> */}
     </IconBarContainer>
   )
 }

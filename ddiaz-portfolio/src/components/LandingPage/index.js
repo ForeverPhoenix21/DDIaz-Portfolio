@@ -20,14 +20,12 @@ const LandingPage = () => {
     <LandingContainer>
       <GridContainer>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-
         <AsideLeft>
           <br></br>
           <TextContainer>
             <LandingH1>FrontEnd Developer</LandingH1>
             <LandingText>
-              This is the Left LandingContainer....... and the extra
-              textjdjdjdjjdjdj djdj ddjdj d
+              This is the Left on how tho handle this text. The next few scentences will be what I have to say about myself
             </LandingText>
           </TextContainer>
         </AsideLeft>
