@@ -9,7 +9,7 @@ import {
 
 const AboutMe = () => {
   return (
-    <AboutMeContainer>
+    <AboutMeContainer id="about">
       <GridContainer>
         <TextContainer>
           <H2Text>

@@ -15,13 +15,13 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/DDiaz-Portfolio">Derek Diaz</NavLogo>
+          <NavLogo to="home">Derek Diaz</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+            <NavLinks to="about">About</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="projects">Projects</NavLinks>

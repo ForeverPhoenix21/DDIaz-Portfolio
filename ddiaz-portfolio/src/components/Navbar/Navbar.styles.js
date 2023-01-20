@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-router-dom";
+// import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background-color: black;
@@ -22,12 +22,12 @@ export const NavbarContainer = styled.div`
   display: flex;
   background-color: black;
   justify-content: space-between;
-  height: 80px;
+  /* height: 80px; */
   z-index: 1;
   width: 100%;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
 background-color: black;
   color: #fff;
   cursor: pointer;
@@ -53,7 +53,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    margin: 25px;
+    margin-right: 10%;
     right: 0;
     transform: translate(-100, 60%);
     font-size: 1.8rem;

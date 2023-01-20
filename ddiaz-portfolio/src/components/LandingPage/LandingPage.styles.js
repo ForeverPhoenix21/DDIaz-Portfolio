@@ -19,7 +19,7 @@ export const TextContainer = styled.div`
 `;
 
 export const LandingContainer = styled.div`
-  margin-top: 10px;
+  /* margin-top: 10px; */
 `;
 
 export const GridContainer = styled.div`

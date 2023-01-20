@@ -17,7 +17,7 @@ import Video from "../../videos/backGroundVideo.mp4";
 
 const LandingPage = () => {
   return (
-    <LandingContainer>
+    <LandingContainer id = "home">
       <GridContainer>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         <AsideLeft>

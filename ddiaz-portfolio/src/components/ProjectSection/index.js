@@ -18,7 +18,7 @@ import CommingSoonPic from "../../images/coming-soon.png";
 
 const ProjectSection = () => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="projects">
       <ProjectHeader>Projects</ProjectHeader>
       <HeaderText>
         The Projects listed below are a few examples of my personal work and others that I've completed for MIT's professional course. To see my additonal projects, vist my Github Repo by clicking here. 
