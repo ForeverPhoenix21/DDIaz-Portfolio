@@ -26,7 +26,9 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: 50% 2fr;
   grid-template-rows: 50% 1fr;
-  max-height: 600px;
+  max-height: 800px;
+  background-color:rgba(48,48,54,0.6);
+  
 `;
 
 
@@ -62,7 +64,7 @@ export const AsideRight = styled.div`
   padding: 5%;
   align-self: center;
   justify-self: center;
-  max-width: 600px;
+  max-width: 800px;
   max-height: 900px;
 `;
 
