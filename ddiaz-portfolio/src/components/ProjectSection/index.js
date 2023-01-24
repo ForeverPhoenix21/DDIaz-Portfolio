@@ -65,7 +65,7 @@ const ProjectSection = () => {
           />
           <PText>
             Click below to see my other projects and live demos in my Repository
-            on Github.
+            on Github. Adding more text to see if the sizing 
           </PText>
         </GridContainer>
         {/* <GridContainer>
