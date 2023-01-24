@@ -5,9 +5,9 @@ export const ProjectHeader = styled.h1`
   font-size: 2rem;
   display: flex;
   margin-left: 10%;
-  /* margin-top: 10%; */
+  /* margin-top: 5%; */
   @media screen and (max-width: 480px) {
-    margin: 10%;
+    /* margin: 5% 10%; */
     transition: 1s all ease;
   }
 `;
@@ -20,7 +20,7 @@ export const HeaderText = styled.p`
   max-width: 850px;
   line-height: 1.5rem;
   @media screen and (max-width: 480px) {
-    margin: 10%;
+    /* margin:5% 10%; */
     transition: 1s all ease;
   }
 `;

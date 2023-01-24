@@ -27,7 +27,7 @@ export const GridContainer = styled.div`
   grid-template-columns: 50% 2fr;
   grid-template-rows: 50% 1fr;
   max-height: 800px;
-  background-color:rgba(48,48,54,0.6);
+  background-color: rgba(4, 25, 39, 0.05);
   
 `;
 
