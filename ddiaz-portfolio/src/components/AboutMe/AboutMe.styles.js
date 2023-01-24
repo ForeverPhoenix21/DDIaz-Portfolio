@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
   display: flex;
-  max-height: 600px;
+  max-height: 800px;
 
   width: auto;
   z-index: 1;

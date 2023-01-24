@@ -15,13 +15,37 @@ const Topbar = ({ isOpen, toggle }) => {
       </TopbarIcon>
       <TopbarWrapper>
         <TopbarMenu>
-          <TopbarLink to="about" onClick={toggle}>
+          <TopbarLink
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             About
           </TopbarLink>
-          <TopbarLink to="projects" onClick={toggle}>
+          <TopbarLink
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Projects
           </TopbarLink>
-          <TopbarLink to="contact" onClick={toggle}>
+          <TopbarLink
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Contact
           </TopbarLink>
         </TopbarMenu>
