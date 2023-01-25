@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IconText = styled.p`
 /* color: whitesmoke; */
-margin-left: 5%;
+margin-left: 5.5%;
 margin-right: 5%;
   
 `;

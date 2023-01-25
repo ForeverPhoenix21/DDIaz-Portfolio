@@ -69,6 +69,6 @@ export const AboutMeText = styled.p`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: 28px;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   /* background-color: rgba(4, 25, 39, 0.05); */
 `;
