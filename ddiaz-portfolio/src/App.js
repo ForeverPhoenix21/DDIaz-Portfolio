@@ -12,7 +12,7 @@ function App() {
           <Route path="/DDiaz-Portfolio" element={<Home />}></Route>
         </Routes>
       </div>
-      {/* <Footer /> */}
+     
     </>
   );
 }

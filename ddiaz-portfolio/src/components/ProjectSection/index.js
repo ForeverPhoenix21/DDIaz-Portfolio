@@ -27,6 +27,7 @@ const ProjectSection = () => {
         additonal projects, vist my Github Repo by clicking here.
       </HeaderText>
       <ProjectGrid>
+
         <GridContainer>
           <H2Text>3-Tier Bank App</H2Text>
           <ProjectPic src={BankAppPic} />
@@ -38,8 +39,11 @@ const ProjectSection = () => {
             in Massachusetts, United States.
           </PText>
         </GridContainer>
+
         <GridContainer>
+          
           <H2Text>MTA Bus Tracker</H2Text>
+
           <ProjectPic
             src={BusPic}
             alt=" Screenshot picture of The Bus Tracker App "
@@ -48,9 +52,10 @@ const ProjectSection = () => {
             href="https://foreverphoenix21.github.io/Real-Time-Bus-Tracking/"
             target="_blank"
             rel="noreferrer"
-          eac>
+          >
             <Button>LIVE</Button>
           </a>
+
           <a
             href="https://github.com/ForeverPhoenix21/Real-Time-Bus-Tracking"
             target="_blank"
@@ -58,12 +63,14 @@ const ProjectSection = () => {
           >
             <Button>Github</Button>
           </a>
+
           <PText>
             The Real-Time-Bus-Tracking program is a project that uses the MTBA
             API, and Mapbox which actively tracks the busses on routes 1 and 7
             in Massachusetts, United States.
           </PText>
         </GridContainer>
+
         <GridContainer>
           <H2Text>PacMen</H2Text>
           <ProjectPic
@@ -71,13 +78,16 @@ const ProjectSection = () => {
             alt=" Screenshot picture of The PacMen App "
           />
           <Button>LIVE</Button>
+
           <Button>Github</Button>
+
           <PText>
             The PacMen-Exercise creates Pacmen on the screen done through a
             function coded in JavaScript. The Pacmen can be set in motion by
             clicking the start Button.
           </PText>
         </GridContainer>
+
         <GridContainer>
           <H2Text>Other Projects</H2Text>
           <ProjectPic
@@ -90,12 +100,14 @@ const ProjectSection = () => {
             on Github. Adding more text to see if the sizing
           </PText>
         </GridContainer>
-        {/* <GridContainer>
+
+        <GridContainer>
           <H2Text>5</H2Text>
         </GridContainer>
+
         <GridContainer>
           <H2Text>6</H2Text>
-        </GridContainer> */}
+        </GridContainer>
       </ProjectGrid>
     </ProjectContainer>
   );

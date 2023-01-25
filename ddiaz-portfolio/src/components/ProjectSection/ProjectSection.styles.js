@@ -23,7 +23,7 @@ export const PText = styled.p`
   margin: auto 10px;
   line-height: 1.5rem;
   margin-bottom: 5%;
-  
+
   /* color: whitesmoke; */
 `;
 
@@ -58,6 +58,7 @@ export const GridContainer = styled.div`
 `;
 
 export const ProjectPic = styled.img`
+  display: block;
   width: 350px;
   max-width: 100%;
   max-height: 200px;
@@ -69,15 +70,15 @@ export const ProjectPic = styled.img`
 
 export const Button = styled.button`
   margin: 5%;
-  display: inline-block;
+  display: inline;
   padding: 10px 25px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;//Font Color
-  background-color: #4caf50;//Green
+  color: #fff; //Font Color
+  background-color: #4caf50; //Green
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px #999;

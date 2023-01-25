@@ -72,6 +72,7 @@ export const ProfilePic = styled.img`
   /* border: 1px dotted blue; */
   height: auto;
   width: 100%;
+  max-width: 500px;
   align-self: center;
-  border-radius: 50%;
+  border-radius: 20%;
 `;
