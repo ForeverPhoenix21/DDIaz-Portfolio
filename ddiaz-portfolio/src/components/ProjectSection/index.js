@@ -101,13 +101,13 @@ const ProjectSection = () => {
           </PText>
         </GridContainer>
 
-        <GridContainer>
+        {/* <GridContainer>
           <H2Text>5</H2Text>
         </GridContainer>
 
         <GridContainer>
           <H2Text>6</H2Text>
-        </GridContainer>
+        </GridContainer> */}
       </ProjectGrid>
     </ProjectContainer>
   );

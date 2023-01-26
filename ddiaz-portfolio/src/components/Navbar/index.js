@@ -48,7 +48,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-100}
+                offset={-150}
               >
                 Projects
               </NavLinks>
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-150}
               >
                 Contact
               </NavLinks>

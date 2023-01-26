@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  VideoBg,
+  // VideoBg,
   LandingContainer,
   AsideLeft,
   AsideRight,
@@ -13,17 +13,17 @@ import {
 
 import Pic from "../../images/DerekHS.jpeg";
 
-import Video from "../../videos/backGroundVideo.mp4";
+// import Video from "../../videos/backGroundVideo.mp4";
 
 const LandingPage = () => {
   return (
     <LandingContainer id = "home">
       <GridContainer>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        {/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}
         <AsideLeft>
           <br></br>
           <TextContainer>
-            <LandingH1>FrontEnd Developer</LandingH1>
+            <LandingH1>Let's Connect</LandingH1>
             <LandingText>
               This is the Left on how tho handle this text. The next few scentences will be what I have to say about myself
             </LandingText>

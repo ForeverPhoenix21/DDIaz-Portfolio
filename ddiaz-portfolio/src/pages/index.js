@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 import IconBar from "../components/IconBar";
 import ProjectSection from "../components/ProjectSection";
+import Contact from "../components/Contact";
 
 //
 
@@ -21,10 +22,12 @@ const Home = () => {
     <>
       <Topbar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <LandingPage />
+      <Contact/>
       <AboutMe />
       <IconBar />
       <ProjectSection />
+      <LandingPage />
+    
       <IconBar />
       
  
